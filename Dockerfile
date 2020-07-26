@@ -4,7 +4,7 @@ MAINTAINER boredazfcuk
 ARG app_dependencies="python3 py-pip exiftool coreutils tzdata curl libheif-tools"
 ARG build_dependencies="git gcc python3-dev musl-dev libffi-dev openssl-dev"
 ARG python_dependencies="docopt piexif click==6.0 certifi pytz tzlocal six chardet idna urllib3 requests future keyrings.alt==1.0 keyring==8.0 pyicloud-ipd tqdm schema python-dateutil"
-ARG app_repo="ndbroadbent/icloud_photos_downloader"
+ARG app_repo="twecker137/icloud_photos_downloader"
 ENV config_dir="/config"
 
 RUN echo "$(date '+%d/%m/%Y - %H:%M:%S') | Install build dependencies" && \
